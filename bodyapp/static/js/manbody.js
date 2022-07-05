@@ -23,7 +23,7 @@ for(let i = 0;i<parts.length;i++){
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "Left Leg";
             yorTxt.innerHTML = "ẹsẹ";
-            frTxt.innerHTML = "Cheveu";
+            frTxt.innerHTML = "pieds";
             gerTxt.innerHTML = "das Bein"
         });
     }
@@ -31,8 +31,8 @@ for(let i = 0;i<parts.length;i++){
         part.addEventListener("click",() =>{
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "Hand";
-            yorTxt.innerHTML = "";
-            frTxt.innerHTML = "Cheveu";
+            yorTxt.innerHTML = "ọwọ";
+            frTxt.innerHTML = "main";
             gerTxt.innerHTML = "der Arm"
         });
     }
@@ -40,8 +40,8 @@ for(let i = 0;i<parts.length;i++){
         part.addEventListener("click",() =>{
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "Chest";
-            yorTxt.innerHTML = "ẹsẹ osi";
-            frTxt.innerHTML = "Cheveu";
+            yorTxt.innerHTML = "igbaya";
+            frTxt.innerHTML = "poitrine du corps";
             gerTxt.innerHTML = "Haar"
         });
     }
@@ -49,8 +49,8 @@ for(let i = 0;i<parts.length;i++){
         part.addEventListener("click",() =>{
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "Head";
-            yorTxt.innerHTML = "ẹsẹ osi";
-            frTxt.innerHTML = "Cheveu";
+            yorTxt.innerHTML = "ori";
+            frTxt.innerHTML = "la tête";
             gerTxt.innerHTML = "der Kopf"
         });
     }
@@ -58,7 +58,9 @@ for(let i = 0;i<parts.length;i++){
         part.addEventListener("click",() =>{
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "Neck";
-            yorTxt.innerHTML = "ẹsẹ osi";
+            yorTxt.innerHTML = "ọrun";
+            frTxt.innerHTML = "Cheveu";
+            gerTxt.innerHTML = "der Hals"
         });
     }
     else if(part.getAttribute('id') == 'face'){
@@ -66,67 +68,10 @@ for(let i = 0;i<parts.length;i++){
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "face";
             yorTxt.innerHTML = "ẹsẹ osi";
-        });
-    }
-    else if(part.getAttribute('id') == 'hair'){
-        part.addEventListener("click",() =>{
-            modalBg.classList.add('modal-view');
-            engTxt.innerHTML = "Hair";
-            yorTxt.innerHTML = "ẹsẹ osi";
             frTxt.innerHTML = "Cheveu";
-            gerTxt.innerHTML = "Haar"
+            gerTxt.innerHTML = "der Hals"
         });
     }
-    else if(part.getAttribute('id') == 'nose'){
-        part.addEventListener("click",() =>{
-            modalBg.classList.add('modal-view');
-            engTxt.innerHTML = "Nose";
-            yorTxt.innerHTML = "ẹsẹ osi";
-        });
-    }
-    else if(part.getAttribute('id') == 'eyebrows'){
-        part.addEventListener("click",() =>{
-            modalBg.classList.add('modal-view');
-            engTxt.innerHTML = "Eyebrow";
-            yorTxt.innerHTML = "ẹsẹ osi";
-        });
-    }
-    else if(part.getAttribute('id') == 'cheeks'){
-        part.addEventListener("click",() =>{
-            modalBg.classList.add('modal-view');
-            engTxt.innerHTML = "Neck";
-            yorTxt.innerHTML = "ẹsẹ osi";
-        });
-    }
-    else if(part.getAttribute('id') == 'eyes'){
-        part.addEventListener("click",() =>{
-            modalBg.classList.add('modal-view');
-            engTxt.innerHTML = "Neck";
-            yorTxt.innerHTML = "ẹsẹ osi";
-        });
-    }
-    else if(part.getAttribute('id') == 'mouths'){
-        part.addEventListener("click",() =>{
-            modalBg.classList.add('modal-view');
-            engTxt.innerHTML = "Neck";
-            yorTxt.innerHTML = "ẹsẹ osi";
-        });
-    }
-    else if(part.getAttribute('id') == 'teeth'){
-        part.addEventListener("click",() =>{
-            modalBg.classList.add('modal-view');
-            engTxt.innerHTML = "Neck";
-            yorTxt.innerHTML = "ẹsẹ osi";
-        });
-    }
-    else if(part.getAttribute('id') == 'tongue'){
-        part.addEventListener("click",() =>{
-            modalBg.classList.add('modal-view');
-            engTxt.innerHTML = "Neck";
-            yorTxt.innerHTML = "ẹsẹ osi";
-        });
-    }
-   
 }
 
 
