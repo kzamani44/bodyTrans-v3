@@ -68,8 +68,8 @@ a{
 
 .modal{
     position: relative;
-    width:70%;
-    height:30%;
+    width:75%;
+    height:70%;
     border-radius: 10px;
     background-color: white;
     display: flex;

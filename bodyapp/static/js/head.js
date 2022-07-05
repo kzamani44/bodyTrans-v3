@@ -5,7 +5,7 @@ var closeBtn = document.getElementById("modal-close");
 var engTxt = document.getElementById('eng-text');
 var yorTxt = document.getElementById("yor-text");
 var frTxt = document.getElementById("fr-text");
-var gerTxt = documnent.getElementById("ger-text");
+var gerTxt = document.getElementById("ger-text");
 
 for(let i = 0;i<parts.length;i++){
     var part = parts[i];
