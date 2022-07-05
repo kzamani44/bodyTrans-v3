@@ -22,14 +22,18 @@ for(let i = 0;i<parts.length;i++){
         part.addEventListener("click",() =>{
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "Left Leg";
-            yorTxt.innerHTML = "ẹsẹ osi";
+            yorTxt.innerHTML = "ẹsẹ";
+            frTxt.innerHTML = "Cheveu";
+            gerTxt.innerHTML = "das Bein"
         });
     }
     else if(part.getAttribute('id') == 'hand'){
         part.addEventListener("click",() =>{
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "Hand";
-            yorTxt.innerHTML = "ẹsẹ osi";
+            yorTxt.innerHTML = "";
+            frTxt.innerHTML = "Cheveu";
+            gerTxt.innerHTML = "der Arm"
         });
     }
     else if(part.getAttribute('id') == 'chest'){
@@ -37,6 +41,8 @@ for(let i = 0;i<parts.length;i++){
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "Chest";
             yorTxt.innerHTML = "ẹsẹ osi";
+            frTxt.innerHTML = "Cheveu";
+            gerTxt.innerHTML = "Haar"
         });
     }
     else if(part.getAttribute('id') == 'head'){
@@ -44,6 +50,8 @@ for(let i = 0;i<parts.length;i++){
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "Head";
             yorTxt.innerHTML = "ẹsẹ osi";
+            frTxt.innerHTML = "Cheveu";
+            gerTxt.innerHTML = "der Kopf"
         });
     }
     else if(part.getAttribute('id') == 'neck'){
@@ -65,6 +73,8 @@ for(let i = 0;i<parts.length;i++){
             modalBg.classList.add('modal-view');
             engTxt.innerHTML = "Hair";
             yorTxt.innerHTML = "ẹsẹ osi";
+            frTxt.innerHTML = "Cheveu";
+            gerTxt.innerHTML = "Haar"
         });
     }
     else if(part.getAttribute('id') == 'nose'){
