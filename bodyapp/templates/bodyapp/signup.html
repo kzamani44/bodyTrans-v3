@@ -1,0 +1,41 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>sign in</title>
+        <link rel="stylesheet" href="{% static 'stylesheets/signin.css' %}">
+    </head>
+    <body>
+        <section>
+            <div class="form-container">
+                <h1>Login Form</h1>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <div class="control">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="control">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <span><input type="checkbox"> Remenber me</span>
+                    <div class="control">
+                        <input type="submit" value="Login">
+                        {% if message1 %}
+                        <p class="messa"> {{ message1 }}.
+                            signed up before ?
+                            <br>
+                            <a href="{% url 'bodyapp:home' %}">Go to homepage</a>
+                        </p>
+                        {% endif %}
+                        {% if message %}
+                        <p class="messa"> {{ message }} </p>
+                        {% endif %}
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

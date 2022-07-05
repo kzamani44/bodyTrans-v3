@@ -1,0 +1,54 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiLingual Body Parts</title>
+
+    <!-- FONT STYLES -->
+    <link rel="stylesheet" href="{% static 'stylesheets/fonts.css' %}">
+    <!-- ICON STYLES -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- default external stylesheet-->
+    <link rel="stylesheet" href="{% static 'stylesheets/style.css' %}">
+    <link rel="stylesheet" href="{% static 'stylesheets/lightslider.css' %}">
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/lightslider.js' %}"></script>
+    <script src="{% static 'js/app.js' %}"></script>
+
+
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <!-- SLIDER  -->
+            <ul id="autoWidth" class="cs-hidden">
+                <!-- ITEM 1 -->
+                <li class="item-a">
+                <a href="{% url 'bodyapp:manbody' %}"><div class="box">
+                            <p class="home-text">MAN</p>
+                            <img src="{% static 'images/man-slider.png' %}"  alt="Man image" class="model">
+                    </div>
+                </a>
+                </li>
+
+                <li class="item-b">
+                    <a href="{% url 'bodyapp:head' %}">
+                        <div class="box">
+                            <p class="home-text">HEAD</p>
+                            <img src="{% static 'images/head-slider.png' %}" alt="Man image" class="model" id="head-slider">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+    </section>
+    
+</body>
+</html> 
